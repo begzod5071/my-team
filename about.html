@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>48-dars.Myteam</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__container">
+      <a class="site-header__logo" href="index.html">
+        <img class="site-header__img" src="img/myteam-logo.svg" alt="site logo" width="160" height="40">
+      </a>
+
+      <div class="site-header__wrapper">
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="index.html">home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="about.html">about</a>
+            </li>
+          </ul>
+          <a class="sitenav__button button" href="contact.html">contact us</a>
+        </nav>
+      </div>
+      <button class="site-header__button"></button>
+    </div>
+  </header>
+
+  <script>
+    var toggler = document.querySelector(".site-header__button");
+    var header = document.querySelector(".site-header");
+
+    toggler.addEventListener("click", function() {
+      header.classList.toggle("site-header--open");
+    });
+  </script>
+
+  <!-- page-about -->
+
+  <main class="site-main">
+    <section class="about">
+      <div class="container about__container">
+        <h2 class="about__title">About</h2>
+        <p class="about__text">
+          We help companies build dynamic teams made up of top global talent. Using our network of passionate professionals we drive innovation and deliver incredible outcomes. Talented, diverse teams shape the best products and experiences. We’ll bring those teams to you.
+        </p>
+      </div>
+    </section>
+
+    <section class="meet">
+      <div class="container meet__container">
+        <h2 class="meet__title">Meet the directors</h2>
+        <ul class="meet__list">
+          <li class="meet__item director director--nikkita">
+            <p class="director__name">Nikita Marks</p>
+            <p class="director__job">Co-founder & COO</p>
+            <button class="director__button" type="submit"></button>
+          </li>
+
+          <li class="meet__item director director--duncan">
+            <p class="director__name">Cristian Duncan</p>
+            <p class="director__job">Co-founder & COO</p>
+            <button class="director__button" type="submit"></button>
+          </li>
+
+          <li class="meet__item director director--cruz">
+            <p class="director__name">Cruz Hamer</p>
+            <p class="director__job">Co-founder & CTO</p>
+            <button class="director__button" type="submit"></button>
+          </li>
+
+          <li class="meet__item director director--drake">
+            <p class="director__name">Drake Heaton</p>
+            <p class="director__job">Business Development Lead</p>
+            <button class="director__button" type="submit"></button>
+          </li>
+
+          <li class="meet__item director director--griffin">
+            <p class="director__name">Griffin Wise</p>
+            <p class="director__job">Lead Marketing</p>
+            <button class="director__button" type="submit"></button>
+          </li>
+
+          <li class="meet__item director director--aden director--open">
+            <div class="meet__item-box">
+              <p class="director__name">Aden Allan</p>
+              <p class="director__job">Head of Talent</p>
+            </div>
+            <div>
+
+            </div>
+            <button class="director__button director__button-x" type="submit"></button>
+          </li>
+
+
+        </ul>
+      </div>
+    </section>
+
+<section class="client">
+  <div class="container client__container">
+<h2 class="client__title">
+  Some of our clients</h2>
+  <ul class="client__list">
+    <li class="client__item">
+<a class="client__link" href="#">
+  <img class="client__img" src="img/verge.png" alt="logo">
+</a>
+    </li>
+    <li class="client__item">
+<a class="client__link" href="#">
+  <img class="client__img" src="img/jakarta.png" alt="logo">
+</a>
+    </li>
+    <li class="client__item">
+<a class="client__link" href="#">
+  <img class="client__img" src="img/guardim.png" alt="logo" width="180" height="28">
+</a>
+    </li>
+    <li class="client__item">
+<a class="client__link" href="#">
+  <img class="client__img" src="img/techradar.png" alt="logo" width="165" height="28">
+</a>
+    </li>
+    <li class="client__item">
+<a class="client__link" href="#">
+  <img class="client__img" src="img/gadgets-now.png" alt="logo">
+</a>
+    </li>
+  </ul>
+  </div>
+</section>
+
+<section class="list">
+  <div class="container">
+    <div class="list__wrapper">
+      <h2 class="list__title">Ready to get started?</h2>
+      <a class="button button--darck" href="#">contact us</a>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__container">
+      <div class="site-footer__wrapper">
+        <a class="site-footer__logo" href="#">
+          <img class="site-footer__img" src="img/myteam-logo.svg" alt="site logo" width="160" height="40">
+        </a>
+        <nav class="footer-sitenav">
+          <ul class="footer-sitenav__list">
+            <li class="footer-sitenav__item">
+              <a class="footer-sitenav__link" href="#">home</a>
+            </li>
+            <li class="footer-sitenav__item">
+              <a class="footer-sitenav__link" href="#">about</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="site-footer__tel-box">
+        <address class="site-footer__address">
+          987  Hillcrest Lane <br> Irvine, CA <br> California 92714
+        </address>
+        <a class="site-footer__tell" href="tel:+9498337432">Call Us : 949-833-7432</a>
+      </div>
+
+      <div class="social-wrapper">
+        <ul class="social-wrapper__list">
+          <li class="social-wrapper__item">
+            <a class="social-wrapper__link" href="#">
+              <img class="social-wrapper__img" src="img/facebook.svg" alt="facebook" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-wrapper__item">
+            <a class="social-wrapper__link" href="#">
+              <img class="social-wrapper__img" src="img/Path.svg" alt="logo" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-wrapper__item">
+            <a class="social-wrapper__link" href="#">
+              <img class="social-wrapper__img" src="img/twitter.svg" alt="twitter" width="24" height="24">
+            </a>
+          </li>
+        </ul>
+        <p class="social-wrapper__text">
+          Copyright 2020. All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>

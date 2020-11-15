@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>48-dars.Myteam</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__container">
+      <a class="site-header__logo" href="index.html">
+        <img class="site-header__img" src="img/myteam-logo.svg" alt="site logo" width="160" height="40">
+      </a>
+
+      <div class="site-header__wrapper">
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="index.html">home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="about.html">about</a>
+            </li>
+          </ul>
+          <a class="sitenav__button button" href="contact.html">contact us</a>
+        </nav>
+      </div>
+      <button class="site-header__button"></button>
+    </div>
+  </header>
+
+  <script>
+    var toggler = document.querySelector(".site-header__button");
+    var header = document.querySelector(".site-header");
+
+    toggler.addEventListener("click", function() {
+      header.classList.toggle("site-header--open");
+    });
+  </script>
+
+  <!-- page-contact -->
+
+  <main class="site-main">
+    <section class="contact">
+      <div class="container contact__container">
+        <div class="contact__wrapper">
+          <h2 class="contact__title">Contact</h2>
+          <p class="contact__ask">Ask us about</p>
+
+          <ul class="contact__list">
+            <li class="contact__item contact__item--man">
+              <p class="contact__text">The quality of our talent network</p>
+            </li>
+
+            <li class="contact__item contact__item--set">
+              <p class="contact__text">Usage & implementation of our software</p>
+            </li>
+
+            <li class="contact__item contact__item--innovation">
+              <p class="contact__text">How we help drive innovation</p>
+            </li>
+          </ul>
+        </div>
+
+        <form class="site-form" action="https://echo.htmlacademy.ru" method="GET">
+          <input class="site-form__input" type="text" name="name" placeholder="Name" required>
+          <input class="site-form__input" type="email" name="email" placeholder="Email Address" required>
+          <input class="site-form__input" type="text" name="company-name" placeholder="Company Name" required>
+          <input class="site-form__input" type="text" name="title" placeholder="Title" required>
+          <textarea class="site-form__textarea" name="message" placeholder="Message"></textarea>
+          <button class="site-form__submit" type="submit">submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__container">
+      <div class="site-footer__wrapper">
+        <a class="site-footer__logo" href="#">
+          <img class="site-footer__img" src="img/myteam-logo.svg" alt="site logo" width="160" height="40">
+        </a>
+        <nav class="footer-sitenav">
+          <ul class="footer-sitenav__list">
+            <li class="footer-sitenav__item">
+              <a class="footer-sitenav__link" href="#">home</a>
+            </li>
+            <li class="footer-sitenav__item">
+              <a class="footer-sitenav__link" href="#">about</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="site-footer__tel-box">
+        <address class="site-footer__address">
+          987  Hillcrest Lane <br> Irvine, CA <br> California 92714
+        </address>
+        <a class="site-footer__tell" href="tel:+9498337432">Call Us : 949-833-7432</a>
+      </div>
+
+      <div class="social-wrapper">
+        <ul class="social-wrapper__list">
+          <li class="social-wrapper__item">
+            <a class="social-wrapper__link" href="#">
+              <img class="social-wrapper__img" src="img/facebook.svg" alt="facebook" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-wrapper__item">
+            <a class="social-wrapper__link" href="#">
+              <img class="social-wrapper__img" src="img/Path.svg" alt="logo" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-wrapper__item">
+            <a class="social-wrapper__link" href="#">
+              <img class="social-wrapper__img" src="img/twitter.svg" alt="twitter" width="24" height="24">
+            </a>
+          </li>
+        </ul>
+        <p class="social-wrapper__text">
+          Copyright 2020. All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>

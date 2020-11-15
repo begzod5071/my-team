@@ -1,0 +1,31 @@
+.footer-sitenav {
+  display: flex;
+  align-items: center;
+}
+.footer-sitenav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-sitenav__item:not(:last-child) {
+margin-right: 40px;
+}
+.footer-sitenav__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+@include responsive (380){
+  .footer-sitenav__item:not(:last-child) {
+    margin-right: 24px;
+    }
+    .footer-sitenav__link{
+      font-size: 15px;
+      line-height: 25px;
+    }
+}
